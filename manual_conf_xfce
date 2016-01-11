@@ -1,0 +1,13 @@
+#Chromebook
+
+Pour le raccourci du terminal
+- Settings -> Keyboard -> Shortcut application
+    Le nom du bin est : xfce-terminal.wrapper
+
+Pour desactiver le mousepad
+
+
+Pour enabled la locale (FR)
+- touch /etc/default/locale
+    LANG="fr_CA.UTF-8"
+    Reboot terminal
