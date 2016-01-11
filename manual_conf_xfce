@@ -5,7 +5,8 @@ Pour le raccourci du terminal
     Le nom du bin est : xfce-terminal.wrapper
 
 Pour desactiver le mousepad
-
+- Copy disable_mousepad.sh to /usr/bin/
+- Add keyboard shortcut 
 
 Pour enabled la locale (FR)
 - touch /etc/default/locale
