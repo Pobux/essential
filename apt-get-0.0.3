@@ -4,6 +4,9 @@
 #@TODO voir python3 plutôt que python2
 sudo apt-get update
 
+echo "software essential"
+sudo apt-get install software-properties-common python-software-properties
+
 echo "Installing cmake essential"
 sudo apt-get install build-essential cmake
 
@@ -46,6 +49,9 @@ sudo /usr/bin/mysql_secure_installation
 
 echo "Installing apache2"
 sudo apt-get install apache2
+
+echo "Installing mercurial"
+sudo apt-get install mercurial
 
 echo "Installing php"
 sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
