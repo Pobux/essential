@@ -33,3 +33,9 @@ sudo apt-get -y install tmux
 echo "Install nodejs"
 curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+echo "Installing ruby"
+sudo apt-get install -y rubygems-integration
+
+echo "Installing SaSS"
+sudo su -c "gem install sass"
